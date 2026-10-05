@@ -1,9 +1,13 @@
+export type PerformanceTier = "Excellent" | "Good" | "Needs Improvement";
 export interface EmployeePerformance {
   id: string;
   name: string;
   role: string;
   tasksCompleted: number;
   tasksOnTime: number;
+  avgCompletionHours?: number;
+  trend?: "up" | "down" | "flat";
+  trendValue?: string;
 }
 
 /**
