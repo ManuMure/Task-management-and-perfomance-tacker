@@ -24,7 +24,7 @@ export default function Sidebar() {
     <aside className="sticky top-0 flex h-screen w-64 flex-col bg-slate-900">
       <div>
         <div className="mb-8 px-3">
-          <h1 className="text-xl font-bold text-white">BRS Admin</h1>
+          <h1 className="text-xl font-bold text-white">Business Regsistration Service Admin</h1>
         </div>
 
         <nav className="flex flex-col gap-1">
