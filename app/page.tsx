@@ -3,6 +3,8 @@ import StatsCards from "@/components/StatsCards";
 import ActiveTaskQueue from "@/components/ActiveTaskQueue";
 import { getTasks, getTaskStats } from "@/lib/data/tasks";
 
+export const dynamic = "force-dynamic";
+
 export default async function DashboardPage() {
   const [tasks, stats] = await Promise.all([
     getTasks(4),
