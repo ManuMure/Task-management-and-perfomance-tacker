@@ -36,9 +36,7 @@ export default function LoginPage() {
 
       <div className="flex w-full flex-col justify-center px-6 py-16 sm:px-12 lg:w-1/2 lg:px-24">
         <div className="mx-auto w-full max-w-sm">
-          <p className="text-sm font-semibold text-slate-500">
-            Business Registration Service
-          </p>
+          
           <h1 className="mt-1 text-3xl font-bold text-slate-900">Welcome Back</h1>
           <p className="mt-2 text-sm text-slate-500">
             Please enter your credentials to access the system.

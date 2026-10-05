@@ -3,7 +3,7 @@ export default function RegisterBrandPanel() {
     <div className="relative hidden w-1/2 flex-col items-center justify-center overflow-hidden bg-[#0A1B3D] px-12 py-20 lg:flex">
       <div className="max-w-lg text-center">
         <h1 className="text-4xl font-bold tracking-tight text-white">
-          BRS Admin
+          Admin
         </h1>
 
         <h2 className="mt-6 text-2xl font-semibold text-blue-400">
